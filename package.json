@@ -1,35 +1,35 @@
 {
-    "name": "node-hapi-template",
-    "version": "1.0.0",
-    "private": false,
-    "description": "Sample Hapi.js project to be used as a starting point for new APIs",
-    "main": "index.js",
-    "scripts": {
-        "test": "lab -v -t 100",
-        "test-junit": "lab -L -t 100 -r junit -o junit-results.xml",
-        "start": "node index.js",
-        "debug": "node debug index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/asmith60/node-hapi-template.git"
-    },
-    "keywords": [
-        "template",
-        "hapi"
-    ],
-    "author": "asmith60",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "hapi": "^16.1.0",
-        "hapi-swagger": "^7.6.0",
-        "inert": "^4.1.0",
-        "joi": "^10.2.0",
-        "require-directory": "^2.1.1",
-        "vision": "^4.1.1"
-    },
-    "devDependencies": {
-        "code": "^4.0.0",
-        "lab": "^11.2.2"
-    }
+  "name": "node-hapi-template",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Sample Hapi.js project to be used as a starting point for new APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v -t 100",
+    "test-junit": "lab -L -t 100 -r junit -o junit-results.xml",
+    "start": "node index.js",
+    "debug": "node debug index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmith60/node-hapi-template.git"
+  },
+  "keywords": [
+    "template",
+    "hapi"
+  ],
+  "author": "asmith60",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "hapi": "16.1.1",
+    "hapi-swagger": "7.7.0",
+    "inert": "4.2.0",
+    "joi": "10.4.2",
+    "require-directory": "2.1.1",
+    "vision": "4.1.1"
+  },
+  "devDependencies": {
+    "code": "4.0.0",
+    "lab": "11.2.2"
+  }
 }
